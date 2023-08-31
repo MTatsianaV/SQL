@@ -38,7 +38,7 @@ RETURNS VARCHAR(20) READS SQL DATA
 BEGIN
 	SET @now =  curtime();
     SET @stop_evening = '24:00:00';
-	SEt @stop_night = '06:00:00';
+	SET @stop_night = '06:00:00';
     SET @stop_morning = '12:00:00';
     SET @stop_afternoon = '18:00:00';    
 RETURN
